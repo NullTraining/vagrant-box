@@ -1,0 +1,8 @@
+.vagrant/
+/composer.phar
+/etc/provisioning/setup.retry
+.DS_Store
+/.idea
+/.orig
+/.~
+

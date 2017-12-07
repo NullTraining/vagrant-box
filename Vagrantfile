@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.network "private_network", ip: "10.0.14.80"
+  config.vm.network "private_network", ip: "10.0.59.80"
   config.vm.synced_folder ".", "/vagrant", type: "nfs"
 
   config.vm.provider "virtualbox" do |v|
