@@ -12,11 +12,11 @@ parameters:
     - name:       bob
       template:   symfony2-dev-application
       domain:     www.bob.loc
-      path:       /var/www/sites/www.bob.loc
+      path:       /vagrant
     - name:       test_bob
       template:   symfony2-test-application
       domain:     test.bob.loc
-      path:       /var/www/sites/www.bob.loc
+      path:       /vagrant
   mysql:
     ip: 127.0.0.1
     root_password: n0p455
