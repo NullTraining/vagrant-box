@@ -5,13 +5,13 @@
   roles:
     - ubuntu-server
     - memcached
-    - php7
+    - php71
     #- openjdk7
     #- oracle_java7
     - nginx
     - mysql
     #- symfony2
-    - selenium
+    #- selenium
     #- beanstalkdaemon
     #- beanstalkclient
     #- supervisord
